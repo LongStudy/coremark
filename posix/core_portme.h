@@ -20,6 +20,10 @@ Original Author: Shay Gal-on
         This file contains configuration constants required to execute on
    different platforms
 */
+#ifndef ITERATIONS
+#define ITERATIONS 10000
+#endif
+
 #ifndef CORE_PORTME_H
 #define CORE_PORTME_H
 
