@@ -65,7 +65,7 @@ LOAD = echo Loading done
 RUN = 
 
 OEXT = .o
-EXE = .coremark
+EXE = .rv64
 
 # Flag: SEPARATE_COMPILE
 # Define if you need to separate compilation from link stage. 

@@ -95,7 +95,7 @@ volatile ee_s32 seed5_volatile = 0;
 #define TIMER_RES_DIVIDER          1
 #define SAMPLE_TIME_IMPLEMENTATION 1
 #elif defined(_MSC_VER)
-#define NSECS_PER_SEC        10000000
+#define NSECS_PER_SEC        50000000
 #define EE_TIMER_TICKER_RATE 1000
 #define CORETIMETYPE         FILETIME
 #define GETMYTIME(_t)        GetSystemTimeAsFileTime(_t)
@@ -107,7 +107,7 @@ volatile ee_s32 seed5_volatile = 0;
 #endif
 #define SAMPLE_TIME_IMPLEMENTATION 1
 #elif HAS_TIME_H
-#define NSECS_PER_SEC        1000000000
+#define NSECS_PER_SEC        50000000
 #define EE_TIMER_TICKER_RATE 1000
 #define CORETIMETYPE         struct timespec
 #define GETMYTIME(_t)        clock_gettime(CLOCK_REALTIME, _t)
