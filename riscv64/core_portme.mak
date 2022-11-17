@@ -21,7 +21,7 @@
 OUTFLAG= -o
 # Flag: CC
 #	Use this flag to define compiler to use
-CC = riscv64-linux-gnu-gcc
+CC = riscv64-unknown-linux-gnu-gcc
 # Flag: CFLAGS
 #	Use this flag to define compiler options. Note, you can add compiler options from the command line using XCFLAGS="other flags"
 PORT_CFLAGS = -O2
